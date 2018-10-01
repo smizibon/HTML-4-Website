@@ -1,0 +1,59 @@
+<h2> Registration Form </h2>
+<form action="/action_page.php" target="_blank" method="POST">
+<center>
+    <table width="50%">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="myname"></td>
+        </tr>
+        <tr>
+                <td>E-Mail</td>
+                <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+                <td>Password</td>
+                <td><input type="password" name="mypass"></td>
+        </tr>
+        <tr>
+                <td>Confirm Password</td>
+                <td><input type="password" name="mycpass"></td>
+        </tr>
+        <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+        </tr>
+        <tr>
+                <td>Language</td>
+                <td>
+                    <input type="checkbox" name="langone" value="bangla"> Bangla
+                    <input type="checkbox" name="langtwo" value="english"> English
+                </td>
+        </tr>
+        <tr>
+                <td>Country</td>
+                <td>
+                        <select>
+                            <option value="Aus">Australia</option>
+                            <option value="BD">Bangladesh</option>
+                            <option value="Eng">England</option>
+                            <option value="USA">The United States</option>
+                        </select>
+                </td>
+        </tr>
+        <tr>
+                <td>Biography</td>
+                <td>
+                        <textarea rows="5" cols="30"> </textarea>
+                </td>
+        </tr>
+        <tr >                
+                <td align="center">
+                        <input type="submit" value="Submit">
+                </td>
+        </tr>
+    </table>
+</center>
+</form>
